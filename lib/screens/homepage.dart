@@ -52,17 +52,17 @@ class _HomePageState extends State<HomePage> {
           currentIndex: _currentIndex,
           items: [
         BottomNavigationBarItem(
-          icon: Icon(Icons.home,color: Theme.of(context).primaryColor,),
+          icon: Icon(Icons.assistant,color: Theme.of(context).primaryColor,),
           backgroundColor: Theme.of(context).accentColor,
           title: Text('Tips',style: TextStyle(color: Theme.of(context).primaryColor),),
         ),
         BottomNavigationBarItem(
-            icon: Icon(Icons.home,color: Theme.of(context).primaryColor),
+            icon: Icon(Icons.info,color: Theme.of(context).primaryColor),
             backgroundColor: Theme.of(context).accentColor,
             title: Text('Info',style: TextStyle(color: Theme.of(context).primaryColor),)
         ),
         BottomNavigationBarItem(
-            icon: Icon(Icons.add_circle,color: Theme.of(context).primaryColor),
+            icon: Icon(Icons.note,color: Theme.of(context).primaryColor),
             backgroundColor: Theme.of(context).accentColor,
             title: Text('Self Test',style: TextStyle(color: Theme.of(context).primaryColor),)
         ),
