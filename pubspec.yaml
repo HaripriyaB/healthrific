@@ -21,6 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  qr_flutter: ^3.2.0
+  flutter_bluetooth_serial: ^0.2.2
   provider: ^4.1.2
   animations: ^1.1.0
   firebase_auth: ^0.16.1
