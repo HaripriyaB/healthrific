@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "688902861640",
+    "firebase_url": "https://healthrific.firebaseio.com",
+    "project_id": "healthrific",
+    "storage_bucket": "healthrific.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688902861640:android:eda9808caac3f24f18797d",
+        "android_client_info": {
+          "package_name": "com.example.healthrific"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688902861640-svr2urheepa5mgq33gjg9kcdn4v3f06t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ5cRPKuUa3FyzWINsivE5YSxnycXhm3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688902861640-svr2urheepa5mgq33gjg9kcdn4v3f06t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -75,8 +75,8 @@ class _CovidInfoPageState extends State<CovidInfoPage> {
                 },
               ),
               Container(
-                height: SizeConfig.blockSizeVertical * 35,
-                width: SizeConfig.blockSizeHorizontal * 100,
+//                height: SizeConfig.blockSizeVertical * 35,
+//                width: SizeConfig.blockSizeHorizontal * 100,
                 margin: EdgeInsets.all(10.0),
                 padding: EdgeInsets.all(12.0),
                 decoration: BoxDecoration(

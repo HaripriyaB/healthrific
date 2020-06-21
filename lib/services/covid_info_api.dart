@@ -51,11 +51,14 @@ class _CountryInfoWidgetState extends State<CountryInfoWidget> {
       builder: (context, snapshot) {
 
         if(snapshot.hasData){
-          return Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[
-              Text(widget.country),
-              Text('${snapshot.data.cases}',textAlign: TextAlign.start,)
-            ],
+          return Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: <Widget>[
+                Text(widget.country),
+                Text('${snapshot.data.cases}',textAlign: TextAlign.start,)
+              ],
+            ),
           );
         }else
           return CircularProgressIndicator();
