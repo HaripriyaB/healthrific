@@ -20,7 +20,7 @@ class _CovidInfoPageState extends State<CovidInfoPage> {
         appBar: AppBar(
           elevation: 0.0,
           title: Text(
-            'Covid Info',
+            'Covid-19 Info',
             style: TextStyle(color: Theme.of(context).primaryColor),
           ),
           backgroundColor: Colors.white,
